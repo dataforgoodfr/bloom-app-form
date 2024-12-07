@@ -1,0 +1,164 @@
+{
+  "1": {
+    "path_image": "1-CHALUT BENTHIQUE A PANNEAUX-transparent.png",
+    "name": "CHALUT DE FOND A PANNEAUX",
+    "FR": "CHALUT DE FOND À PANNEAUX : filet en forme d'entonnoir traîné sur le fond marin. Des plaques en métal pouvant peser plusieurs tonnes chacunes se trouvent de chaque côté du filet, permettant de le garder ouvert, en contact avec le fond marin.",
+    "EN": "An OTTER BOTTOM TRAWL : is a funnel-shaped net dragged along the seabed. Metal plates, each weighing up to several tonnes, are placed on either side of the net to keep it open and in contact with the seabed."
+  },
+  "2": {
+    "path_image": "2-CHALUT BENTHIQUE A PERCHE-transparent.png",
+    "name": "CHALUT DE FOND A PERCHE",
+    "FR": "CHALUT DE FOND À PERCHE : filet en forme d'entonnoir traîné sur le fond marin. Une barre en métal à l'avant du filet permet de le garder ouvert. Des chaînes en métal completent l'engin et délogent les animaux marins vivant dans le sédiment.",
+    "EN": "A BEAM BOTTOM TRAWL : is a funnel-shaped net dragged along the seabed. A metal bar at the front of the net keeps it open. Metal chains complete the device and help dislodge marine animals living in the sediment."
+  },
+  "3": {
+    "path_image": "3-CHALUT PELAGIQUE-transparent.png",
+    "name": "CHALUT PELAGIQUE",
+    "FR": "CHALUT PÉLAGIQUE : filet en forme d'entonnoir, traîné dans la colonne d'eau. En raison de son poids, il peut également entrer en contact avec le fond marin.",
+    "EN": "A PELAGIC TRAWL : is a funnel-shaped net dragged through the water column. Because of its weight, it can also come into contact with the seabed."
+  },
+  "4": {
+    "path_image": "4-SENNE DEMERSALE-transparent.png",
+    "name": "SENNE DEMERSALE",
+    "FR": "SENNE DÉMERSALE : filet en forme d'entonnoir déployé sur le fond marin. Le filet est relié à des câbles, mis en vibration sur une grande surface pour créer un mur de sédiments puis rabattus pour capturer les poissons dans le filet.",
+    "EN": "A DEMERSAL SEINE : is a funnel-shaped net deployed on the seabed. The net is connected to cables, which are vibrated over a large area to create a wall of sediment and then gradually pulled back together to catch the fish in the net."
+  },
+  "5": {
+    "path_image": "5-DRAGUE A MAIN-transparent.png",
+    "name": "DRAGUE A MAIN",
+    "FR": "DRAGUE À MAIN : structure rigide en forme d'écope, attachée à un manche manié par un plongeur ou un pêcheur (à pied ou sur un bateau). Des dents/lames rigides pénètrent dans le sédiment pour déloger et ramasser les animaux qui y vivent.",
+    "EN": "A HAND DREDGE : is a rigid scoop-like structure attached to a handle operated by a diver or fisher (on foot or on a boat). Rigid teeth/blades/rakes penetrate the sediment to dislodge and collect the animals living in it."
+  },
+  "6": {
+    "path_image": "6-DRAGUE REMORQUEE-transparent.png",
+    "name": "DRAGUE MECANIQUE",
+    "FR": "DRAGUE MÉCANIQUE : structure rigide en forme d'écope, traînée par un navire le fond marin. Des dents/lames rigides pénètrent dans le sédiment pour déloger les animaux qui y vivent. De l'eau injectée sous pression peut compléter l'engin.",
+    "EN": "A TOWED DREDGE : is a rigid scoop-like structure dragged along the seabed by a boat. Rigid teeth/blades/rakes penetrate the sediment to dislodge and collect the animals living in it. Pressurized water injected into the sediment can complete the device."
+  },
+  "7": {
+    "path_image": "7-FILET EPERVIER-transparent.png",
+    "name": "FILET RETOMBANT ou \"EPERVIER\"",
+    "FR": "FILET RETOMBANT ou \"ÉPERVIER\" : filet conique, déployé manuellement par un pêcheur, qui le jette. En coulant grâce à de petits plombs qui le bordent, le filet est alors refermé par le pêcheur, autour des poissons ciblés.",
+    "EN": "A CAST NET : is a conical net, manually deployed by a fisher, who throws it. As it sinks thanks to small weights around its edge, the fisher closes the net around the targeted fish."
+  },
+  "8": {
+    "path_image": "8-CASIER EN LANTERNE-transparent.png",
+    "name": "CASIER LANTERNE",
+    "FR": "CASIER LANTERNE : structure en bois, généralement en forme de cône ou de pyramide. Le pêcheur le pousse vers le fond, pour capturer les animaux qui se retrouvent piégés dedans.",
+    "EN": "A LANTERN POT : is a wooden structure, usually in the shape of a cone or pyramid. The fisher pushes it towards the bottom to catch the animals that get trapped inside."
+  },
+  "9": {
+    "path_image": "9-FILET MAILLANT DERIVANT-transparent.png",
+    "name": "FILET MAILLANT DERIVANT",
+    "FR": "FILET MAILLANT DÉRIVANT : filet rectangulaire maintenu à la verticale grâce à des plombs et des flotteurs. Le filet dérive au gré des courants de surface, parfois pendant de longues périodes. Il peut mesurer plusieurs kilomètres de long.",
+    "EN": "A DRIFTING GILLNET : is a rectangular net held vertically by weights (bottom) and floats (top). The net drifts with surface currents, sometimes for long periods. It can be several kilometres long."
+  },
+  "10": {
+    "path_image": "10-FILET MAILLANT FIXE-transparent.png",
+    "name": "FILET MAILLANT ANCRE ou \"FIXE\"",
+    "FR": "FILET MAILLANT ANCRÉ ou \"FIXE\" : filet rectangulaire maintenu à la verticale grâce à des plombs (en bas) et des flotteurs (en haut). Le filet est ancré sur le fond marin à l'aide de poids, parfois pendant de longues périodes.",
+    "EN": "An SET or 'FIXED' GILLNET : is a rectangular net held vertically by weights (below) and floats (above). The net is anchored to the seabed using weights, sometimes for long periods."
+  },
+  "11": {
+    "path_image": "11-TREMAIL-transparent.png",
+    "name": "FILET TREMAIL",
+    "FR": "FILET TRÉMAIL : filet constitué de trois couches superposées. Il est maintenu à la verticale grâce à des plombs et des flotteurs. Le filet est généralement ancré sur le fond marin à l'aide de poids, parfois pendant de longues périodes.",
+    "EN": "A TRAMMEL NET : is a net made up of three superimposed layers. It is held vertically by weights (at the bottom) and floats (at the top). The net is usually anchored to the seabed using weights, sometimes for long periods."
+  },
+  "12": {
+    "path_image": "12-FILET SOULEVE MECANIQUE-transparent.png",
+    "name": "FILET SOULEVE MECANIQUE ou \"FIXE\"",
+    "FR": "FILET SOULEVÉ MÉCANIQUE ou \"FIXE\" : filet généralement carré ou rectangulaire fixé à un cadre et lesté en son centre. Le pêcheur capture les poissons attirés par un appât en relevant rapidement le filet à l'aide d'un treuil motorisé ou non.",
+    "EN": "A MECHANICAL or 'FIXED' LIFT NET : is a generally square or rectangular net attached to a frame and weighted in its centre. The fisher catches the animals attracted by bait by quickly lifting the net using a motorised or non-motorised winch."
+  },
+  "13": {
+    "path_image": "13-FILET SOULEVE MANUEL-transparent.png",
+    "name": "FILET SOULEVE MANUEL OU \"PORTABLE\"",
+    "FR": "FILET SOULEVÉ MANUEL OU \"PORTABLE\" : filet généralement carré ou rectangulaire fixé à un cadre portatif et lesté en son centre. Le pêcheur capture les poissons attirés par un appât en relevant rapidement le filet à la force des bras.",
+    "EN": "A MANUAL OR 'PORTABLE' LIFT NET : is a generally square or rectangular net attached to a portable frame and weighted in its centre. The fisher catches the animals attracted by the bait by quickly lifting the net with arm power."
+  },
+  "14": {
+    "path_image": "14-SENNE A DCP-transparent.png",
+    "name": "SENNE TOURNANTE + DISPOSITIF DE CONCENTRATION DE POISSONS (DCP)",
+    "FR": "SENNE TOURNANTE + DISPOSITIF DE CONCENTRATION DE POISSONS (DCP) : grand filet vertical (~1km de long et 2-300m de haut) déployé autour de radeaux flottants déployés par centaines, attirant les poissons ciblés et de nombreuses espèces accessoires.",
+    "EN": "A PURSE SEINE plus FISH AGGREGATING DEVICE (FAD) : is a large vertical net (up to 1km long and 300m high) deployed around FADs, i.e. floating rafts deployed by the hundreds, attracting not only the targeted individuals but also many by-catch species."
+  },
+  "15": {
+    "path_image": "15-SENNE COULISSANTE-transparent.png",
+    "name": "SENNE TOURNANTE",
+    "FR": "SENNE TOURNANTE : grand filet vertical (jusqu'à 1km de long et 300m de haut) déployé autour d'un banc puis refermé par le bas.",
+    "EN": "A PURSE SEINE : is a large vertical net (up to 1km long and 300m high) deployed around a school of fish and then closed at the bottom to retrieve them"
+  },
+  "16": {
+    "path_image": "16-SENNE DE PLAGE-transparent.png",
+    "name": "SENNE DE PLAGE",
+    "FR": "SENNE DE PLAGE : filet vertical déployé par un ou plusieurs pêcheurs depuis le rivage ou une embarcation légère, afin d'encercler un banc de poisson en eaux peu profondes.",
+    "EN": "A BEACH SEINE : is a vertical net deployed by one or more fishers from the shore or from a light boat to encircle a school of fish in shallow water."
+  },
+  "18": {
+    "path_image": "18-LIGNE VERTICALE-transparent.png",
+    "name": "LIGNE VERTICALE",
+    "FR": "LIGNE VERTICALE : ligne lestée et équipée d'hameçons avec appât/leurre, reliée à une bouée en surface ou directement au bateau. Les poissons mordent à l'appât/leurre et sont capturés une fois hameçonés.",
+    "EN": "A VERTICAL LINE : is a weighted, hooked line with bait/lure attached to a surface buoy or directly to the boat. The fish bite on the bait and are caught once hooked."
+  },
+  "19": {
+    "path_image": "19-PECHE A LA TRAINE-transparent.png",
+    "name": "LIGNE de TRAINE",
+    "FR": "LIGNE de TRAÎNE : ligne lestée et équipée d'hameçons avec appât/leurre, traînée derrière le bateau en mouvement. Les poissons mordent à l'appât/leurre et sont capturés une fois hameçonés.",
+    "EN": "A TROLL LINE : is a weighted, hooked line with bait/lure, dragged behind a moving boat. The fish bite on the bait/lure and are caught once hooked."
+  },
+  "20": {
+    "path_image": "20-LIGNE A LA MAIN ET CANNE A PECHE-transparent.png",
+    "name": "LIGNE A MAIN ou CANNE",
+    "FR": "LIGNE À MAIN ou CANNE : ligne lestée et équipée d'hameçons avec appât/leurre, au bout d'une canne ou non, et lancée à la main par le pêcheur. Les poissons mordent à l'appât/leurre et sont capturés une fois hameçonés.",
+    "EN": "A HANDLINE and POLE-AND-LINE : is a weighted line fitted with hooks and bait/lure, at the end of a rod or not, and cast by hand by the angler. The fish bite on the bait/lure and are caught once hooked."
+  },
+  "21": {
+    "path_image": "21-LIGNE ET CANNE MECANISEE-transparent.png",
+    "name": "LIGNES ET CANNES MECANISEES",
+    "FR": "LIGNES ET CANNES MÉCANISÉES : ligne lestée et équipée d'hameçons avec appât/leurre, au bout d'une canne ou non. Les poissons mordent à l'appât/leurre et sont capturés une fois hameçonés. Les lignes sont remontés grâce à un enrouleur motorisé.",
+    "EN": "A MECHANISED LINE and POLE-AND-LINE : is a weighted line fitted with hooks and bait/lure, at the end of a rod or not, and cast by hand. The fish bite on the bait/lure and are caught once hooked. The lines are reeled in using a motorised reel."
+  },
+  "22": {
+    "path_image": "22-PALANGRE DERIVANTE-transparent.png",
+    "name": "PALANGRE DERIVANTE",
+    "FR": "PALANGRE DÉRIVANTE : ligne principale divisée en lignes secondaires équipées d'hameçons avec appât/leurre. La palangre est reliée à des flotteurs et dérive au gré des courants. Elle peut atteindre 100km de long et des dizaines de milliers d'hameçons.",
+    "EN": "A DRIFTING LONGLINE : consists of a main line divided into secondary lines equipped with hooks and bait. The longline is attached to floats and drifts with the currents. It can be over 100km long and have several tens of thousands of hooks."
+  },
+  "23": {
+    "path_image": "23-PALANGRE FIXE-transparent.png",
+    "name": "PALANGRE FIXE",
+    "FR": "PALANGRE FIXE : une ligne principale divisée en lignes secondaires équipées d'hameçons avec appât/leurre. La palangre est ancrée au fond marin par un système de poids et flotteurs.",
+    "EN": "A SET LONGLINE : consists of a main line divided into secondary lines equipped with hooks and bait. The longline is anchored to the seabed by a system of weights and floats."
+  },
+  "24": {
+    "path_image": "24-OUTILS MANUELS POUR ESPECES DEMERSALES ET PELAGIQUES-transparent.png",
+    "name": "ENGIN MANUEL PELAGIQUE",
+    "FR": "ENGIN MANUEL PÉLAGIQUE : large catégorie incluant harpons, épuisettes, lances, etc. Le plus souvent utilisés sur le rivage, en plongée, ou depuis un bateau, ils sont utilisés à la force des bras pour capturer les animaux vivant dans la colonne d'eau.",
+    "EN": "MANUAL PELAGIC GEARS : consist of a wide category including harpoons, landing nets, spears, etc. They can be used on shore, while diving or from a boat. They are operated by arm power to catch animals leaving in the water column."
+  },
+  "25": {
+    "path_image": "25-OUTILS MANUELS POUR FONDS MARINS-transparent.png",
+    "name": "ENGIN MANUEL DE FOND",
+    "FR": "ENGIN MANUEL DE FOND : large catégorie incluant pinces, râteaux, etc. Le plus souvent utilisés sur le rivage ou en plongée, Ils sont utilisés à la force des bras pour attraper crustacés, coquillages, algues, etc.",
+    "EN": "MANUAL BOTTOM GEARS : consist of a wide category including clamps, rakes, etc. Mostly used on shore or while diving, they are operated by arm power to catch animals leaving on the bottom, such as crustaceans, shells, algea, etc."
+  },
+  "26": {
+    "path_image": "26-PIEGE FIXE-transparent.png",
+    "name": "PIEGE FIXE",
+    "FR": "PIÈGE FIXE : structure construite dans le but de piéger les poissons grâce courants/marées, tels que les filets fixes, \"capéchades\", barrières, barrages, etc. Les animaux sont ramassés régulièrement dans la partie terminale du piège.",
+    "EN": "A FIXED TRAP : is a structure built for the purpose of trapping fish by means of currents/tides, such as fixed nets, weirs, barriers, dams, etc. The animals are regularly collected in the terminal part of the trap"
+  },
+  "27": {
+    "path_image": "27-PIEGE MOBILE-transparent.png",
+    "name": "PIEGE MOBILE",
+    "FR": "PIÈGE MOBILE : structure transportable comme les casiers, nasses et jarres, déployée sur le fond marin et pouvant être équippée d'appât. Les casiers peuvent être reliés les uns aux autres et déployés en grand nombre.",
+    "EN": "A MOBILE TRAP : is a transportable structure such as traps, pots and jars, generally deployed on the seabed and fitted with bait. The trap is then hauled up to collect the animals. Traps can be connected to each other and deployed in important numbers."
+  },
+  "28": {
+    "path_image": "28-POMPE-transparent.png",
+    "name": "POMPE",
+    "FR": "POMPE : tuyau qui aspire le poisson vivant directement dans le bateau. Le poisson est généralement attiré au préalable sur la zone de pêche avec de la lumière, des appâts, etc.",
+    "EN": "A PUMP : is a pipe that sucks live fish directly into the boat. The fish are usually lured to the fishing area beforehand with light, bait, etc."
+  }
+}

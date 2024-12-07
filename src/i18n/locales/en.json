@@ -1,0 +1,13 @@
+{
+  "welcome": "What is your perception of the impact of different fishing gears on marine ecosystems?",
+  "hero": "For each pair of fishing gears, click on the one you perceive as having the most negative impact on the environment.\n\nIt takes approximately 30-40 minutes to complete the questionnaire, but at any time, you can leave it. Your answers will be saved.",
+  "start": "START",
+  "logout": "Logout",
+  "language": "Language",
+  "quiz": {
+    "a_more_dangerous": "A is more destructive",
+    "b_more_dangerous": "B is more destructive",
+    "equally_dangerous": "A and B are equally destructive",
+    "dont_know": "I don't know"
+  }
+} 

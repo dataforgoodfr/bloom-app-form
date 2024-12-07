@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the most common fishing technique?",
+      "options": [
+        "Fly fishing",
+        "Bait casting",
+        "Spinning",
+        "Trolling"
+      ],
+      "correctAnswer": 2,
+      "image": "/images/fishing-techniques/spinning.jpg"
+    }
+  ]
+} 

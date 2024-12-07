@@ -1,0 +1,13 @@
+{
+  "welcome": "Quelle est votre perception de l'impact des différents engins de pêche sur les écosystèmes marins ?",
+  "hero": "Pour chaque couple d'engins de pêche, cliquez sur celui que vous percevez comme ayant le plus d'impact négatif sur l'environnement.\n\nIl faut approximativement 30-40 minutes pour compléter le questionnaire, mais à tout moment, vous pouvez le quitter. Vos réponses seront sauvegardées.",
+  "start": "COMMENCER",
+  "logout": "Déconnexion",
+  "language": "Langue",
+  "quiz": {
+    "a_more_dangerous": "A est plus destructif",
+    "b_more_dangerous": "B est plus destructif",
+    "equally_dangerous": "A et B sont également destructifs",
+    "dont_know": "Je ne sais pas"
+  }
+} 
