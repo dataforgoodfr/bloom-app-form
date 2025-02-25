@@ -3,11 +3,22 @@
   "hero": "For each pair of fishing gears, click on the one you perceive as having the most negative impact on the environment.\n\nIt takes approximately 30-40 minutes to complete the questionnaire, but at any time, you can leave it. Your answers will be saved.",
   "start": "START",
   "logout": "Logout",
+  "login":{
+    "title":"Your perception of fishing gear impact",
+    "email":"Email",
+    "submit":"Submit"
+  },
   "language": "Language",
   "quiz": {
     "a_more_dangerous": "A is more destructive",
     "b_more_dangerous": "B is more destructive",
     "equally_dangerous": "A and B are equally destructive",
-    "dont_know": "I don't know"
+    "dont_know": "Skip for now"
+  },
+  "completion": {
+    "title": "Thank You for Participating!",
+    "thank_you": "Thank you for completing the fishing gear impact assessment.",
+    "contact_soon": "We appreciate your valuable input. Our team will analyze the results and may get in touch with you soon.",
+    "back_home": "Back to Home"
   }
 } 

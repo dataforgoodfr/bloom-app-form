@@ -17,7 +17,7 @@ const Navbar = () => {
   const { t, i18n } = useTranslation();
   const router = useRouter();
   const pathname = usePathname();
-  const { email, progress, totalPairs, clearUser } = useUser();
+  const { email, clearUser } = useUser();
 
   const handleLanguageChange = (value: string) => {
     i18n.changeLanguage(value);
@@ -28,8 +28,6 @@ const Navbar = () => {
     router.push('/');
   };
 
-  const progressPercentage = ((progress / totalPairs) * 100).toFixed(1);
-
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,29 +36,15 @@ const Navbar = () => {
             href="/home" 
             className="text-xl font-bold hover:text-blue-600 transition-colors cursor-pointer"
           >
-            Fishing Quiz
+            Your perception of fishing gear impact
           </Link>
           
           <div className="flex items-center gap-6">
-            {/* User info and progress */}
+            {/* User info */}
             <div className="flex items-center gap-4 text-sm text-gray-600">
               <span className="hidden md:inline">
                 Logged in as <span className="font-medium">{email}</span>
               </span>
-              
-              {pathname === '/quiz' && (
-                <div className="flex items-center gap-2">
-                  <div className="h-2 w-20 bg-gray-200 rounded-full overflow-hidden">
-                    <div 
-                      className="h-full bg-blue-500 transition-all duration-300"
-                      style={{ width: `${progressPercentage}%` }}
-                    />
-                  </div>
-                  <span className="whitespace-nowrap">
-                    {progress}/{totalPairs} ({progressPercentage}%)
-                  </span>
-                </div>
-              )}
             </div>
 
             {/* Language selector and logout */}

@@ -7,25 +7,27 @@ interface UserContextType {
   email: string | null;
   progress: number;
   totalPairs: number;
-  setEmail: (email: string) => void;
-  setProgress: (progress: number) => void;
+  setUser: (email: string) => void;
   clearUser: () => void;
+  updateProgress: (newProgress: number) => void;
+  setTotalPairs: (total: number) => void;
 }
 
-const UserContext = createContext<UserContextType | null>(null);
+const UserContext = createContext<UserContextType | undefined>(undefined);
 
 const TOTAL_PAIRS = 378; // 28 choose 2 = (28 * 27) / 2 = 378
 
 export function UserProvider({ children }: { children: ReactNode }) {
-  const [email, setEmailState] = useState<string | null>(null);
+  const [email, setEmail] = useState<string | null>(null);
   const [progress, setProgress] = useState(0);
+  const [totalPairs, setTotalPairs] = useState(0);
 
   // Load saved progress from storage on mount
   useEffect(() => {
     const savedEmail = Cookies.get('userEmail');
     const savedProgress = localStorage.getItem('quizProgress');
     
-    if (savedEmail) setEmailState(savedEmail);
+    if (savedEmail) setEmail(savedEmail);
     if (savedProgress) setProgress(parseInt(savedProgress, 10));
   }, []);
 
@@ -36,16 +38,22 @@ export function UserProvider({ children }: { children: ReactNode }) {
     }
   }, [progress]);
 
-  const setEmail = (newEmail: string) => {
-    setEmailState(newEmail);
-    Cookies.set('userEmail', newEmail, { sameSite: 'strict' });
+  const setUser = (email: string) => {
+    setEmail(email);
+    setProgress(0); // Reset progress when user changes
+    Cookies.set('userEmail', email, { sameSite: 'strict' });
   };
 
   const clearUser = () => {
-    setEmailState(null);
+    setEmail(null);
     setProgress(0);
+    setTotalPairs(0);
     Cookies.remove('userEmail');
     localStorage.removeItem('quizProgress');
+  };
+
+  const updateProgress = (newProgress: number) => {
+    setProgress(newProgress);
   };
 
   return (
@@ -53,10 +61,11 @@ export function UserProvider({ children }: { children: ReactNode }) {
       value={{ 
         email, 
         progress, 
-        totalPairs: TOTAL_PAIRS,
-        setEmail,
-        setProgress,
-        clearUser
+        totalPairs,
+        setUser, 
+        clearUser,
+        updateProgress,
+        setTotalPairs
       }}
     >
       {children}
@@ -66,7 +75,7 @@ export function UserProvider({ children }: { children: ReactNode }) {
 
 export function useUser() {
   const context = useContext(UserContext);
-  if (!context) {
+  if (context === undefined) {
     throw new Error('useUser must be used within a UserProvider');
   }
   return context;
