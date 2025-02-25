@@ -16,6 +16,7 @@ import { useUser } from '@/contexts/UserContext';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const router = useRouter();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const pathname = usePathname();
   const { email, clearUser } = useUser();
 

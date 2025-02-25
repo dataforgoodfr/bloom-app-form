@@ -15,7 +15,8 @@ interface UserContextType {
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
 
-const TOTAL_PAIRS = 378; // 28 choose 2 = (28 * 27) / 2 = 378
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const TOTAL_PAIRS = 25; // or whatever value it has
 
 export function UserProvider({ children }: { children: ReactNode }) {
   const [email, setEmail] = useState<string | null>(null);

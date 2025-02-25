@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { logResult, QuizRecord } from '@/utils/supabase';
 import { useUser } from '@/contexts/UserContext';
-import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 interface FishingGear {
   path_image: string;
@@ -28,11 +28,10 @@ interface QuizState {
 export default function QuizPage() {
   const { t, i18n } = useTranslation();
   const { email, updateProgress, setTotalPairs } = useUser();
-  const router = useRouter();
   const [gearPairs, setGearPairs] = useState<string[][]>([]);
   const [currentPairIndex, setCurrentPairIndex] = useState(0);
   const [fishingGearData, setFishingGearData] = useState<FishingGearData>({});
-  const [quizState, setQuizState] = useState<QuizState>({
+  const [quizState] = useState<QuizState>({
     firstName: '',
     lastName: '',
     email: '',
@@ -41,13 +40,8 @@ export default function QuizPage() {
   });
   const [answeredCount, setAnsweredCount] = useState(0);
   const [totalPairsCount, setTotalPairsCount] = useState(0);
-  const [isProcessing, setIsProcessing] = useState(false);
-  const processingRef = useRef(false);
-  const [transitionKey, setTransitionKey] = useState(0);
-  const timeoutRef = useRef<any>(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const [isInitialLoading, setIsInitialLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isInitialLoading, setIsInitialLoading] = useState(true);
   const allPairsRef = useRef<string[][]>([]);
 
   // Generate all possible pairs of gear
@@ -117,24 +111,7 @@ export default function QuizPage() {
     };
 
     loadData();
-  }, [email, setTotalPairs, updateProgress]);
-
-  // Add console debug ID for each render to track component lifecycle
-  useEffect(() => {
-    console.log(`--- COMPONENT RENDERED: ${transitionKey} ---`);
-    return () => {
-      console.log(`--- COMPONENT UNMOUNTED: ${transitionKey} ---`);
-    };
-  }, [transitionKey]);
-
-  // Log state changes
-  useEffect(() => {
-    console.log(`Current pair index changed: ${currentPairIndex}`);
-  }, [currentPairIndex]);
-
-  useEffect(() => {
-    console.log(`Answered count changed: ${answeredCount}`);
-  }, [answeredCount]);
+  }, [email, setTotalPairs, updateProgress, isInitialLoading]);
 
   const handleSelection = async (selection: 'A' | 'B' | 'unknown') => {
     // First check if we're already at the end or processing
@@ -268,10 +245,12 @@ export default function QuizPage() {
           >
             {t('quiz.a_more_dangerous')}
           </button>
-          <img 
+          <Image 
             src={`/images/${gearA.path_image}`} 
-            alt={gearA.name} 
-            className="w-full h-auto rounded-md max-h-48 object-contain"
+            alt={gearA.name}
+            width={300}
+            height={200}
+            className="w-full rounded-md max-h-48 object-contain"
           />
           <h3 className="text-lg font-semibold">{gearA.name}</h3>
           <p className="text-gray-700 text-sm">{gearA[i18n.language === 'fr' ? 'FR' : 'EN']}</p>
@@ -297,10 +276,12 @@ export default function QuizPage() {
           >
             {t('quiz.b_more_dangerous')}
           </button>
-          <img 
+          <Image 
             src={`/images/${gearB.path_image}`} 
-            alt={gearB.name} 
-            className="w-full h-auto rounded-md max-h-48 object-contain"
+            alt={gearB.name}
+            width={300}
+            height={200}
+            className="w-full rounded-md max-h-48 object-contain"
           />
           <h3 className="text-lg font-semibold">{gearB.name}</h3>
           <p className="text-gray-700 text-sm">{gearB[i18n.language === 'fr' ? 'FR' : 'EN']}</p>
