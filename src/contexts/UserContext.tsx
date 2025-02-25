@@ -15,9 +15,6 @@ interface UserContextType {
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const TOTAL_PAIRS = 25; // or whatever value it has
-
 export function UserProvider({ children }: { children: ReactNode }) {
   const [email, setEmail] = useState<string | null>(null);
   const [progress, setProgress] = useState(0);

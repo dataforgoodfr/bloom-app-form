@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslation } from 'react-i18next';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import {
   Select,
@@ -16,8 +16,6 @@ import { useUser } from '@/contexts/UserContext';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const router = useRouter();
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const pathname = usePathname();
   const { email, clearUser } = useUser();
 
   const handleLanguageChange = (value: string) => {
